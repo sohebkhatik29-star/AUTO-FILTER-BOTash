@@ -8,7 +8,7 @@ id_pattern = re.compile(r'^.\d+$')
 # Bot information
 SESSION = environ.get('SESSION', 'TechVJBot')
 API_ID = int(environ.get('API_ID', ''))
-API_HASH = environ.get('API_HASH', '')
+API_HASH = environ.get('API_HASH', 'a078e3476750afbd6db7d6c5e5e658d9')
 BOT_TOKEN = environ.get('BOT_TOKEN', "")
 
 
